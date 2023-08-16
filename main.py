@@ -5,7 +5,6 @@ import pygame
 from pygame.locals import QUIT
 
 
-# Função para calcular as coordenadas dos pontos da estrela
 def draw_star(screen, position, size, angle, color="white"):
     inner_size = size / 2.5
     angle += 55
